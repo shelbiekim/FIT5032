@@ -1,2 +1,4 @@
-# FIT5032
-Miji Kim (ID: 30383471)
+# FIT5032 Studio 06
+Name: Miji Kim </br>
+ID: 30383471
+
