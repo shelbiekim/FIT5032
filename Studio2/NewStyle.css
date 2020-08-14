@@ -1,0 +1,38 @@
+﻿.jumbotron h1 {
+    background-color: darkorange;
+    color: white;
+    width: 278px;
+    height: 90px;
+    top: 50px;
+    left: 50px;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.lead {
+    font-family: Lucida Console;
+    padding-top: 10px;
+    color: #0d4261;
+    width: 700px;
+    height: 110px;
+    padding-left: 10px;
+    background-color: gold;
+}
+
+.learn {
+    padding-top: 50px;
+}
+
+.col-md-4 h2 {
+    background-color: #3cbd99;
+    color: white;
+    width: 170px;
+    font-family: 'Courier New';
+    font-weight: bold;
+}
+
+.col-md-4 p {
+    font-family: Lucida Console;
+}
