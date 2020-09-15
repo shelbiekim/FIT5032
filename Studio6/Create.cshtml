@@ -8,11 +8,12 @@
 <h2>Create</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("Create","Sample",FormMethod.Post,new {@id="registerFormPractice"}))
 {
     @Html.AntiForgeryToken()
+
     @ViewBag.Fullname
-    
+<form id="registerFormPractice">
     <div class="form-horizontal">
         <h4>FormOneViewModel</h4>
         <hr />
@@ -39,6 +40,7 @@
             </div>
         </div>
     </div>
+</form>
 }
 
 <div>
@@ -46,5 +48,7 @@
 </div>
 
 @section Scripts {
+    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/validator-practice.js"></script>
 }
